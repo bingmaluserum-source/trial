@@ -235,12 +235,12 @@ let ti=0;
 function typeMessage(){
   if(ti<text.length){
     message.innerHTML+=text[ti++];
-    setTimeout(typeMessage,40);
+    setTimeout(typeMessage,80);
   }
 }
 
 /* SLIDESHOW */
-let imgs=["photo1.jpg","photo2.jpg","photo3.jpg"];
+let imgs=["photo1.JPG","photo2.jpg","photo3.JPG"];
 let idx=0;
 function slideshow(){
   setInterval(()=>{
